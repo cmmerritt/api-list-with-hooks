@@ -6,10 +6,10 @@ const DragQueens = () => {
   const [queens, setQueens] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  useEffect(async () => {
-    const queens = await fetchQueens();
-    setQueens(queens);
-    setLoading(false);
+  useEffect(() => {
+    fetchQueens()
+      .then(res => setQueens(res))
+      .then(() => setLoading(false));
   }, []);
 
   if(loading) return <h1>Loading...</h1>;
