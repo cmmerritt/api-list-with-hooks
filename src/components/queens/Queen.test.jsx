@@ -12,6 +12,7 @@ describe('Queen component', () => {
           name="RuPaul"
           image="rupaul.jpg"
           quote="Shante, you stay."
+          id="1"
         />
       </MemoryRouter>
     );

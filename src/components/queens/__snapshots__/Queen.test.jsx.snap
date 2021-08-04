@@ -4,7 +4,7 @@ exports[`Queen component renders Queen 1`] = `
 <DocumentFragment>
   <figure>
     <a
-      href="/queen/undefined"
+      href="/queen/1"
     >
       <img
         alt="RuPaul"

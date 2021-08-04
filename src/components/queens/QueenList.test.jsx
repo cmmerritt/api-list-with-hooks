@@ -7,12 +7,14 @@ const TestQueenList = [
   {
     name: 'RuPaul',
     image: 'rupaul.jpg',
-    quote: 'Shante, you stay.'
+    quote: 'Shante, you stay.',
+    id: '1'
   },
   {
     name: 'Darcy',
     image: 'darcy.jpg',
-    quote: 'Sashay away.'
+    quote: 'Sashay away.',
+    id: '2'
   }
 ];
 
