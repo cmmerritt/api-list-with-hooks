@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { fetchQueenById } from '../../services/dragRaceApi';
+import { fetchQueenById } from '../services/dragRaceApi';
 import { useParams } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
