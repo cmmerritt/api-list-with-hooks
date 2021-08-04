@@ -3,19 +3,23 @@
 exports[`Queen component renders Queen 1`] = `
 <DocumentFragment>
   <figure>
-    <img
-      alt="RuPaul"
-      height="200px"
-      src="rupaul.jpg"
-    />
-    <figcaption>
-      <p>
-        RuPaul
-      </p>
-      <p>
-        "Shante, you stay."
-      </p>
-    </figcaption>
+    <a
+      href="/queen/undefined"
+    >
+      <img
+        alt="RuPaul"
+        height="200px"
+        src="rupaul.jpg"
+      />
+      <figcaption>
+        <p>
+          RuPaul
+        </p>
+        <p>
+          "Shante, you stay."
+        </p>
+      </figcaption>
+    </a>
   </figure>
 </DocumentFragment>
 `;

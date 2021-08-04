@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { fetchQueenById } from '../../services/dragRaceApi';
 import { useParams } from 'react-router-dom';
-
+import PropTypes from 'prop-types';
 
 const QueenDetail = ({ props }) => {
   const [queen, setQueen] = useState([]);
@@ -20,6 +20,10 @@ const QueenDetail = ({ props }) => {
       <p><b>Words of Wisdom:</b> &quot;{queen.quote}&quot;</p>
     </>
   );
+};
+
+QueenDetail.propTypes = {
+  props: PropTypes.any
 };
 
 export default QueenDetail;

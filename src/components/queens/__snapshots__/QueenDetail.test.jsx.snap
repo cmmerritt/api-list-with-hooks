@@ -10,7 +10,7 @@ exports[`QueenDetail component renders QueenDetail 1`] = `
     <b>
       Words of Wisdom:
     </b>
-     
+     ""
   </p>
 </DocumentFragment>
 `;
