@@ -11,9 +11,10 @@ function App() {
           render={routerProps => (
             <DragQueens {...routerProps} />
           )} />
-        <Route path="/queen/:id"
-          component={QueenDetail}
-        />
+        <Route path="/queen/:id" exact={true}
+          render={routerProps => (
+            <QueenDetail {...routerProps} />
+          )} />
       </Switch>
     </Router>
   );

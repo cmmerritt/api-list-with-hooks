@@ -17,7 +17,7 @@ const QueenDetail = ({ props }) => {
     <>
       <h1>{queen.name}</h1>
       <img src={queen.image_url} alt={queen.name} height="400px" />
-      <p><b>Words of Wisdom:</b> {queen.quote}</p>
+      <p><b>Words of Wisdom:</b> &quot;{queen.quote}&quot;</p>
     </>
   );
 };
