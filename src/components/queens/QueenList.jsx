@@ -14,7 +14,7 @@ const QueenList = ({ queens }) => {
     </li>
   ));
 
-  return <ul>{queenElements}</ul>;
+  return <ul data-testid="ul">{queenElements}</ul>;
 };
 
 QueenList.propTypes = {

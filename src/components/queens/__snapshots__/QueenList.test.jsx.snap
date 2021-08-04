@@ -2,7 +2,9 @@
 
 exports[`QueenList component renders QueenList 1`] = `
 <DocumentFragment>
-  <ul>
+  <ul
+    data-testid="ul"
+  >
     <li>
       <figure>
         <a
