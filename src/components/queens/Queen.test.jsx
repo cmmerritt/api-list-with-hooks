@@ -2,6 +2,8 @@ import React from 'react';
 import { render, cleanup } from '@testing-library/react';
 import Queen from './Queen';
 
+//add <MemoryRouter> when you add router
+
 describe('Queen component', () => {
   afterEach(() => cleanup());
   it('renders Queen', () => {
