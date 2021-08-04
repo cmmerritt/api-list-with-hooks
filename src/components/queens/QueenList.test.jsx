@@ -1,6 +1,7 @@
 import React from 'react';
 import { render, cleanup } from '@testing-library/react';
 import QueenList from './QueenList';
+import { MemoryRouter } from 'react-router-dom';
 
 const TestQueenList = [
   {
@@ -15,15 +16,14 @@ const TestQueenList = [
   }
 ];
 
-//add <MemoryRouter> when you add router
-
 describe('QueenList component', () => {
   afterEach(() => cleanup());
   it('renders QueenList', () => {
     const { asFragment } = render(
-      <QueenList
-        queens={TestQueenList}
-      />
+      <MemoryRouter>
+        <QueenList
+          queens={TestQueenList} />
+      </MemoryRouter>
     );
     expect(asFragment()).toMatchSnapshot();
   });

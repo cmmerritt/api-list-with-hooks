@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { fetchQueenById } from '../../services/dragRaceApi';
+import { useParams } from 'react-router-dom';
 
 
 const QueenDetail = ({ props }) => {
   const [queen, setQueen] = useState([]);
-  // const { id } = match.params;
-  
+  const { id } = useParams();
+  console.log(props);
 
   useEffect(() => {
     fetchQueenById(id)

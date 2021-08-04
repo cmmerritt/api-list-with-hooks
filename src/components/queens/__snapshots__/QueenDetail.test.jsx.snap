@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QueenDetail component renders QueenDetail 1`] = `
+<DocumentFragment>
+  <h1 />
+  <img
+    height="400px"
+  />
+  <p>
+    <b>
+      Words of Wisdom:
+    </b>
+     
+  </p>
+</DocumentFragment>
+`;

@@ -1,18 +1,19 @@
 import React from 'react';
 import { render, cleanup } from '@testing-library/react';
 import Queen from './Queen';
-
-//add <MemoryRouter> when you add router
+import { MemoryRouter } from 'react-router-dom';
 
 describe('Queen component', () => {
   afterEach(() => cleanup());
   it('renders Queen', () => {
     const { asFragment } = render(
-      <Queen 
-        name="RuPaul"
-        image="rupaul.jpg"
-        quote="Shante, you stay."
-      />
+      <MemoryRouter>
+        <Queen 
+          name="RuPaul"
+          image="rupaul.jpg"
+          quote="Shante, you stay."
+        />
+      </MemoryRouter>
     );
     expect(asFragment()).toMatchSnapshot();
   });

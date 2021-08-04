@@ -1,15 +1,15 @@
 import React from 'react';
 import { render, cleanup } from '@testing-library/react';
 import QueenDetail from './QueenDetail';
-
-//add <MemoryRouter> when you add router
+import { BrowserRouter as Router } from 'react-router-dom';
 
 describe('QueenDetail component', () => {
   afterEach(() => cleanup());
   it('renders QueenDetail', () => {
     const { asFragment } = render(
-      <QueenDetail 
-      />
+      <Router>
+        <QueenDetail />
+      </Router>
     );
     expect(asFragment()).toMatchSnapshot();
   });
