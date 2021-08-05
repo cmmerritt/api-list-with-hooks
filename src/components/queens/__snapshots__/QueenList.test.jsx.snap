@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QueenList component renders QueenList 1`] = `
+<DocumentFragment>
+  <ul
+    data-testid="ul"
+  >
+    <li>
+      <figure>
+        <a
+          href="/queen/1"
+        >
+          <img
+            alt="RuPaul"
+            height="200px"
+          />
+          <figcaption>
+            <p>
+              RuPaul
+            </p>
+            <p>
+              "Shante, you stay."
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+    <li>
+      <figure>
+        <a
+          href="/queen/2"
+        >
+          <img
+            alt="Darcy"
+            height="200px"
+          />
+          <figcaption>
+            <p>
+              Darcy
+            </p>
+            <p>
+              "Sashay away."
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+    </li>
+  </ul>
+</DocumentFragment>
+`;
