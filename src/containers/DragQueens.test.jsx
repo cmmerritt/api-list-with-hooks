@@ -7,7 +7,7 @@ import { MemoryRouter } from 'react-router-dom';
 
 const server = setupServer(
   rest.get(
-    'http://www.nokeynoshade.party/api/queens?limit=10', (req, res, ctx) => {
+    'https://www.nokeynoshade.party/api/queens?limit=10', (req, res, ctx) => {
       return res(
         ctx.json(
           [...Array(10)].map((_, i) => ({
