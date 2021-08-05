@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import React from 'react';
-import DragQueens from '../../containers/DragQueens.jsx';
-import QueenDetail from '../queens/QueenDetail.jsx';
+import DragQueens from '../../containers/DragQueens';
+import QueenDetail from '../queens/QueenDetail';
 
 function App() {
   return (
